@@ -17,7 +17,7 @@ st.title("HuggingFace Serverless API Inference")
 # hyperlink for further information
 st.markdown("### [Available HuggingFace Models](https://huggingface.co/models?inference=warm&pipeline_tag=text-generation&sort=trending)")  
 st.markdown("[For more details, please refer to the HuggingFace API documentation](https://huggingface.co/docs/api-inference/parameters)")  
-
+st.markdown("[Generate Access Token](https://huggingface.co/settings/tokens)")
 # model_id, access_token input
 model_id = st.text_input("Model ID")
 access_token = st.text_input("Access Token", type="password")
